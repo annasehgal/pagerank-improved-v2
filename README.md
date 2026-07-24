@@ -1,5 +1,10 @@
 [![C++ Build & Test](https://github.com/annasehgal/pagerank-project/actions/workflows/build.yaml/badge.svg)](https://github.com/annasehgal/pagerank-project/actions/workflows/build.yaml)
-# PageRank Algorithm 
+# PageRank Algorithm
+
+## Project Overview
+
+This project implements Google's PageRank algorithm in C++ and explores how node importance is determined through iterative graph analysis. In addition to the standard PageRank implementation, the project includes an extended version with convergence logging, CSV output, automated testing, and a CI/CD workflow for continuous integration.
+
 - PageRank is based on the random surfer model: imagine a user who moves from page to page across the web.
 - At each step, the surfer either:
   * Follows a random outgoing link from the current page, or
@@ -85,6 +90,7 @@ Output & Notes
 
 # Presentation 
 https://www.canva.com/design/DAG5JbQ8B9M/WWN1ZCESVEeP59Asck6Rvw/edit?utm_content=DAG5JbQ8B9M&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
 
 # References
 - https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.link_analysis.pagerank_alg.pagerank.html
