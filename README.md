@@ -4,7 +4,9 @@
 ## Project Overview
 
 This project implements Google's PageRank algorithm in C++ and explores how node importance is determined through iterative graph analysis. In addition to the standard PageRank implementation, the project includes an extended version with convergence logging, CSV output, automated testing, and a CI/CD workflow for continuous integration.
+
 -----
+
 - PageRank is based on the random surfer model: imagine a user who moves from page to page across the web.
 - At each step, the surfer either:
   * Follows a random outgoing link from the current page, or
